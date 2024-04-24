@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <h1>imagem aqui</h1>
+        <img src="Beatriz Biavatti" alt="">
         <ul>
             <li>Escola </li>
             <li>Estudante</li>
@@ -19,7 +19,6 @@
     
 </body>
 </html>
-
 
 
 header {
