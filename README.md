@@ -10,7 +10,7 @@
 </head>
 <body>
     <header>
-        <img src="Beatriz Biavatti" alt="">
+        <img class="cabecalho-imagem" src="/tmp/guest-4vgmhe/Downloads/brasao_cpmpr270.png" alt="">
         <ul>
             <li>Escola </li>
             <li>Estudante</li>
@@ -21,7 +21,12 @@
 </html>
 
 
+
 header {
     background-color: #131B49;
     color: white;
+}
+
+.cabecalho-imagem{
+    width: 10%;
 }
