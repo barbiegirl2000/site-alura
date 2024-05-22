@@ -9,11 +9,11 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img class="cabecalho-imagem" src="/tmp/guest-4vgmhe/Downloads/brasao_cpmpr270.png" alt="">
-        <ul>
-            <li>Escola </li>
-            <li>Estudante</li>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="" alt="">
+        <ul class="cabecalho-lista">
+            <li class="cabecalho-lista-item">Escola </li>
+            <li class="cabecalho-lista-item">Estudante</li>
         </ul>
     </header>
     
@@ -22,11 +22,27 @@
 
 
 
-header {
+
+*{ margin: 0;
+   padding: 0;
+}
+
+
+.cabecalho {
     background-color: #131B49;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
 }
 
 .cabecalho-imagem{
-    width: 10%;
+width: 5%;
 }
+
+.cabecalho-lista-item{ 
+display: inline-block;
+margin: 0  16px;
+font-size: 20px;
+}
+
