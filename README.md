@@ -1,48 +1,195 @@
-# site-alura
+index
 
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <header class="cabecalho">
-        <img class="cabecalho-imagem" src="" alt="">
-        <ul class="cabecalho-lista">
-            <li class="cabecalho-lista-item">Escola </li>
-            <li class="cabecalho-lista-item">Estudante</li>
-        </ul>
+    <header class="cabeçalho">
+        <div class="container">
+        <span class="cabeçalho__menu-hamburguer"></span>
+        <img src="/tmp/guest-8omrp0/Downloads/AluraBooks/Logo.png" alt="Logo da AluraBooks">
+       </div>
+       <div class="container">
+       <a href="#"><img src="/tmp/guest-8omrp0/Downloads/AluraBooks/Favoritos-1.svg" alt="meus-favoritos"></a>
+        <a href="#"><img src="/tmp/guest-8omrp0/Downloads/AluraBooks/Sacola.png" alt= "sacola"></a>
+        <a href="#"><img src="/tmp/guest-8omrp0/Downloads/AluraBooks/Usuario.png" alt="meu-perfil"></a>
+   </div>
     </header>
-    
 </body>
+
+
 </html>
 
 
+RESET
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
 
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
 
-*{ margin: 0;
-   padding: 0;
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 
-.cabecalho {
-    background-color: #131B49;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-    padding: 24px;
+STYLE
+@import url("styles/header.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
 }
 
-.cabecalho-imagem{
-width: 5%;
+
+body {
+    background-color: var(--cor-de-fundo);
 }
 
-.cabecalho-lista-item{ 
-display: inline-block;
-margin: 0  16px;
-font-size: 20px;
+h1 {
+    background-color: white;
 }
 
+
+HEADER
+cabeçalho_menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    background-image: url("../img/Menu.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+}
